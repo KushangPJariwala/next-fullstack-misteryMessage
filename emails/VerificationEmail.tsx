@@ -19,6 +19,8 @@ export default function VerificationEmail({
   uname,
   otp,
 }: VerificationEmailProps) {
+  console.log("uname", uname);
+  console.log("otp", otp);
   return (
     <Html lang="en" dir="ltr">
       <Head>
